@@ -1,5 +1,5 @@
 import csv
-
+#get the CSV and extract useful data
 def get_csv():
     with open('housingVsTime.csv') as csvfile:
     
