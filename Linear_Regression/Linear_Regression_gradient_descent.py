@@ -51,6 +51,8 @@ def gradient_descent(modDates, price):
 
     #Assuming the relationship between the output and input to be linear
     #and of the form Y = X*P + Q
+    # Y = Estimated Price of the house
+    # X = Time variable
 
     p = 0   
     q = 0
@@ -58,7 +60,7 @@ def gradient_descent(modDates, price):
     gradient_q = 0
     gradient_p = 0
     learning_rate = 0.001
-    loop_count = 1000
+    loop_count = 10000
     i = 0
 
     while(i<loop_count):
