@@ -1,4 +1,0 @@
-##
-Hi
-This repository contains my solution to the coursera Week 2 programming assignment.
-##
